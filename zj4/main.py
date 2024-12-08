@@ -53,7 +53,7 @@ print(results_df)
 
 print("\nThe best:")
 print(best_model)
-if os.path.exists('model_name.keras'):
+if os.path.exists('../model/zj3_model_2.keras'):
     baseline_test_loss, baseline_test_accuracy = baseline_model.evaluate(X_test, y_test, verbose=0)
     print("baseline - Test loss:", baseline_test_loss)
     print("baseline - Test accuracy:", baseline_test_accuracy)
